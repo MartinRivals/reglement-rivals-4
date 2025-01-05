@@ -15,9 +15,17 @@ h1, h2 {
 /* Header */
 header {
   text-align: center;
-  background-color: #dceefb;
-  padding: 20px;
+  background-image: url('https://example.com/ton-image.jpg'); /* Remplacer par l'URL de ton image */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px; /* Ajuster la taille pour que l'image couvre bien le haut */
+  color: white;
   border-bottom: 3px solid #3498db;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Ajouter un ombrage pour la lisibilité du texte */
 }
 
 /* Navigation */
